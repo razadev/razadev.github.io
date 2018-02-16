@@ -5,13 +5,12 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>A SIMPLE CALCULATOR WITH ANGULARJS &#8211; Hello There</title>
-<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-<link rel='dns-prefetch' href='http://s.w.org/' />
-<link rel="alternate" type="application/rss+xml" title="Hello There &raquo; Feed" href="https://razadev.github.io/feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Hello There &raquo; Comments Feed" href="https://razadev.github.io/comments/feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Hello There &raquo; A SIMPLE CALCULATOR WITH ANGULARJS Comments Feed" href="feed/index.html" />
+	<meta name="author" content="Raza Hasan">  
+	<meta name="description" content="A SIMPLE CALCULATOR WITH ANGULARJS &#8211; Raza Hasan">
+	<meta name="keywords" content="SIMPLE,CALCULATOR,ANGULARJS">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="canonical" href="http://razadev.github.io">
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/razadev.github.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -168,6 +167,15 @@ You can add your own CSS here.
 Click the help icon above to learn more.
 */
 		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113864787-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113864787-1');
+</script>
 	</head>
 <body class="post-template-default single single-post postid-1 single-format-standard">
 	<div class="pace-overlay"></div>
@@ -182,12 +190,8 @@ Click the help icon above to learn more.
 				</div><!--/.col-sm-2-->
 				<div class="col-sm-8 col-xs-4">
 					<nav class="header-navigation">
-					<ul id="menu-main-menu" class="clearfix"><li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://razadev.github.io/#about">About</a></li>
-<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="https://razadev.github.io/#projects">Portfolio</a></li>
-<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="https://razadev.github.io/#testimonials">Testimonials</a></li>
-<li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="https://razadev.github.io/#latest-news">Blog</a></li>
-<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://razadev.github.io/#contact-us">Contact Us</a></li>
-</ul>					</nav>
+                    <ul id="menu-main-menu" class="clearfix"><li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://razadev.github.io/blog/">Blog</a></li>
+                    </nav>
 					<button class="open-responsive-menu"><i class="fa fa-bars"></i></button>
 				</div><!--/.col-sm-10-->
 			</div><!--/.row-->
@@ -195,12 +199,8 @@ Click the help icon above to learn more.
 	</div><!--/.top-header-->
 	<nav class="responsive-menu">
 		<ul>
-			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://razadev.github.io/#about">About</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="https://razadev.github.io/#projects">Portfolio</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="https://razadev.github.io/#testimonials">Testimonials</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="https://razadev.github.io/#latest-news">Blog</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://razadev.github.io/#contact-us">Contact Us</a></li>
-		</ul>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://razadev.github.io/blog/">Blog</a></li>
+        </ul>
 	</nav><!--/.responsive-menu-->
 	<div class="bottom-header blog">
 	<div class="container">
@@ -211,10 +211,11 @@ Click the help icon above to learn more.
 	</div><!--/.container-->
 </div><!--/.bottom-header.blog--></header><!--/#header-->	<div class="container">
 	<div class="row">
-				<div class="col-sm-8">
-			
-				<section id="blog">
-					
+    <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+            
+                <section id="blog">
+                    
 <article id="post-1" class="blog-post post-1 post type-post status-publish format-standard hentry category-lab">
 	
 		<div class="blog-post-entry markup-format">
@@ -600,30 +601,21 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 </p><div class="form-response"></div></form>
 			</div><!-- #respond -->
 	</div><!--/#comments--></article><!--/#post-1.blog-post-->				</section><!--/#blog-->
-			</div><!--/.col-sm-7-->
-
-							<div class="col-sm-4">
-					<div id="sidebar">
-						<div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://razadev.github.io/">
-    <div class="search-form-box">
-    	<input type="submit" id="searchsubmit" value="" />
-        <input type="search" id="s" placeholder="Search..." value="" name="s" title="Search for:" />
-    </div><!--/.search-form-box-->
-</form><!--/.search-form--></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<div class="widget-title"><h5>Recent Posts</h5></div>		<ul>
-					<li>
-				<a href="https://razadev.github.io/php-programming-facts.html">PHP PROGRAMMING FACTS</a>
-						</li>
-					<li>
-				<a href="https://razadev.github.io/using-sendgrid-mandrill-to-send-emails-codeigniter-application.html">USING SENDGRID OR MANDRILL TO SEND EMAILS IN A CODEIGNITER APPLICATION</a>
-						</li>
-					<li>
-				<a href="https://razadev.github.io/a-simple-calculator-with-angularjs.html">A SIMPLE CALCULATOR WITH ANGULARJS</a>
-						</li>
-				</ul>
-		</div>							</div>
-				</div>
-					</div><!--/.row-->
+            </div><!--/.col-sm-7-->                 
+                    </div><!--/.row-->
 	</div><!--/.container-->
+<!--<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-4665547124361616"
+data-ad-slot="6937450234"></ins>-->
+<div data-WRID="WRID-151705906658194361" data-widgetType="productBanner"  data-class="affiliateAdsByFlipkart" height="240px" width="120px"></div><script async src="//affiliate.flipkart.com/affiliate/widgets/FKAffiliateWidgets.js"></script> 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2945195580970858",
+    enable_page_level_ads: true
+  });
+</script>
 <footer id="footer">
 	<div class="container">
 		<p class="copyright">
@@ -682,14 +674,6 @@ setTimeout(function() { jQuery(".typed-text-content").typed({
 <script type='text/javascript' src='https://razadev.github.io/wp-content/plugins/kiwi-social-share/assets/js/frontend.min001e.js?ver=2.0.0'></script>
 <div id="ad-container"></div>
 <script>
-setTimeout(function(){
-var iframes = document.querySelectorAll('iframe');
-for (var i = 0; i < iframes.length; i++) {
-    iframes[i].parentNode.removeChild(iframes[i]);
-}
-jQuery('#ad-container').nextAll('*').remove();
-jQuery('#ad-container').remove();
-},1000);
 jQuery("#input-submit").click(function(){
     jQuery(".form-response").html("<div class='alert alert-success'><strong>Thankyou,</strong> Your reply has been sent for admin approval.</div>");
 });
