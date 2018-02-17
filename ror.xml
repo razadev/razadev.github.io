@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://razadev.github.io/</title>
+  <link>http://razadev.github.io/</link>
+
+<item>
+     <link>http://razadev.github.io/</link>
+     <title>Raza Hasan &#8211; Seeking a responsible career in an organisation where I can utilize my skills, knowledge to work at my level best. To grow with the orgnisation and deliver best possible services. Work hard to achieve the corporate targets and goals keeping in view the corporate mission and vision</title>
+     <description>Working as web Programmer since 2013. I offer high quality hand-coded greatness, Open Source Solutions like WordPress, Laravel, Codeigniter, Cakephp.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/</link>
+     <title>Raza Dev - Blog On Secret Tips & Tricks</title>
+     <description>Working as web Programmer since 2013. I offer high quality hand-coded greatness, Open Source Solutions like WordPress, Laravel, Codeigniter, Cakephp.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/a-simple-calculator-with-angularjs.html</link>
+     <title>A SIMPLE CALCULATOR WITH ANGULARJS - Raza Hasan</title>
+     <description>Myself Raza Hasan (Php Web Developer) from mumbai / with a passion for great web development and android development. click here to find my more skillsets. Email: razadev89@gmail.com ,Phone: +919819887609</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/life-hack-website-which-should-make-you-feel-amazing.html</link>
+     <title>life hack website which should make you feel amazing</title>
+     <description>This article providing details about the best blogs for PHP developers. Check our reviews and stay up to date with the most valuable online PHP resources.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/Myself-Raza-Hasan.html</link>
+     <title>Who Is Raza Hasan (Raza Dev) razadev | Php developer</title>
+     <description>Myself Raza Hasan, Presenting You A Unique Channel Raza Dev(Razadev) , Here You Will Find Secret Tips & Tricks, Hacks About Programming In Technology Like, PHP, Android, JavaScript, Python, Java, Laravel, Code ignitor, XHTML, Linux, Windows, Dos, Shell, Angular, SQL, Proxy, Git, Social API (Facebook, Twitter, Instagram, YouTube, Google, LinkedIn, Tumblr, Flickr, Pinterest, Quora)</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/Open-Source-MySQL-Injection-sqlsus.html</link>
+     <title>razadev | sqlsus | Penetration Testing Tools</title>
+     <description>Raza Dev - sqlsus is an open source MySQL injection and takeover tool, written in perl. Via a command line interface, you can retrieve the database(s) structure, inject your own SQL queries (even complex ones), download files from the web server, crawl the website for writable directories, upload and control a backdoor, clone the database(s), and much more.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/php-programming-facts.html</link>
+     <title>interesting-facts-about-php-programming-language-php-developer-should-know</title>
+     <description>PHP originally stood for Personal Home Page.PHP which is now officially known as ‘Hypertext Preprocessor’ was released in the year 1995.Initially written as a set of Common Gateway Interface (CGI) in ‘C’ (1994).PHP was originally designed to replace a set of Perl scripts to maintain his Personal Home Pages (also known as PHP).PHP was originally created by Rasmus Lerdorf in 1995. He wrote the original Common Gateway Interface (CGI) binaries.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/Preventing-mysql-injection.html</link>
+     <title>How to Prevent SQL Injection in PHP</title>
+     <description>This post will focus on how to prevent SQL injection vulnerabilities within PHP applications and fix them.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razadev.github.io/blog/using-sendgrid-mandrill-to-send-emails-codeigniter-application.html</link>
+     <title>USING SENDGRID OR MANDRILL TO SEND EMAILS IN A CODEIGNITER APPLICATION Codeigniter Tutorials Developers Must Follow</title>
+     <description>USING SENDGRID OR MANDRILL TO SEND EMAILS IN A CODEIGNITER APPLICATION Codeigniter Tutorials Developers Must Follow</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
