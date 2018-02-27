@@ -2837,10 +2837,9 @@ p.mb32 {
 .pace-overlay {
 	z-index: 2;
 }
-.typed-text-section{font-size: 30px;color: #fff !important;height:100px;}
-@media (min-width:320px) and (max-width: 480px) {#header .top-header .header-logo {font-size: 20px;}.typed-text-section{font-size: 30px;color: #fff !important;height:150px;}}
-@media (min-width:480px) and (max-width: 600px) {#header .top-header .header-logo {font-size: 30px;}.typed-text-section{font-size: 30px;color: #fff !important;height:140px;}}
-@media (min-width:600px) and (max-width: 801px) {#header .top-header .header-logo {font-size: 40px;}.typed-text-section{font-size: 30px;color: #fff !important;height:130px;}}
-@media (min-width:801px) and (max-width: 1025px) {#header .top-header .header-logo {font-size: 40px;}.typed-text-section{font-size: 30px;color: #fff !important;height:120px;}}
-@media (min-width:1025px) and (max-width: 1281px) {#header .top-header .header-logo {font-size: 60px;}.typed-text-section{font-size: 30px;color: #fff !important;height:100px;}}
+.typed-text-section{
+	font-size: 30px;
+	color: #fff !important;
+	height:100px;
+}
 /*# sourceMappingURL=main.css.map */
