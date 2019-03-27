@@ -586,6 +586,7 @@ a:hover, a:focus {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-attachment: initial;
 	background-attachment: fixed;
 	background-position: center center;
 }
@@ -900,6 +901,7 @@ a.button:hover {
 	padding: 55px 0;
 	text-align: center;
 	position: relative;
+	background-attachment: initial;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2831,6 +2833,7 @@ p.mb32 {
 #projects {
     background-size: cover;
     background-repeat: no-repeat;
+	background-attachment: initial;
     background-attachment: fixed;
 }
 
