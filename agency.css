@@ -248,7 +248,7 @@ header .intro-text .intro-lead-in {
   font-style: italic;
   font-size: 15px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
 header .intro-text .intro-lead-in ul >li:after  {
   content: "|";
@@ -261,9 +261,9 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 0;
   word-spacing: 25px;
 }
 .header-overlay-text{
