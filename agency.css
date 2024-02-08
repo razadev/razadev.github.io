@@ -229,7 +229,6 @@ header {
   background-image: url('header-bg.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -241,7 +240,7 @@ header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
   z-index:99;
-  color:#000;
+  color:#fff;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
