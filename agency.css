@@ -266,6 +266,12 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
   word-spacing: 25px;
 }
+.header-overlay-text{
+  background-color: #00000087;
+    border-radius: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -276,7 +282,7 @@ header .intro-text .intro-heading {
     font-style: italic;
     font-size: 32px;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 0;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -284,7 +290,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     font-size: 50px;
     line-height: 65px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 
   }
 }
