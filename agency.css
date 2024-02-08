@@ -852,7 +852,7 @@ body {
 
 .w3l-contacts-12 .contact-text-sub {
     line-height: 25px;
-    color: var(--text-color);
+    color: #000;
     font-size: 18px;
 }
 
