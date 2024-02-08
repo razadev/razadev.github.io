@@ -264,7 +264,7 @@ header .intro-text .intro-heading {
   font-size: 23px;
   line-height: 50px;
   margin-bottom: 0;
-  word-spacing: 25px;
+  word-spacing: 8px;
 }
 .header-overlay-text{
   background-color: #00000087;
