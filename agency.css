@@ -871,8 +871,8 @@ body {
     line-height: 25px;
     color: #000;
     font-size: 18px;
-  word-wrap: "break-word";
-  word-break: "break-word";
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .w3l-contacts-12 .social-icons-con {
