@@ -734,7 +734,7 @@ ul.social-buttons li a:active {
   opacity: 0.3;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 30px;
   width: 1px;
   margin-left: 35px;
   background-color: #222222;
