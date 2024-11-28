@@ -919,8 +919,8 @@ body {
 }
 @media (min-width:641px)  {
   #portfolio .portfolio-item .portfolio-link img {
-  width: 400px;
-  height: 291px;
+  width: 100%;
+  height: 600px;
   }
 }
 @media (min-width:961px)  {
