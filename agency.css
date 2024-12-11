@@ -227,7 +227,9 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('header-bg.png');
+  background: #00000087;
+background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("header-bg.png");
+background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("header-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   -webkit-background-size: cover;
